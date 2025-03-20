@@ -17,10 +17,7 @@
     style="margin-top: 8rem; transform: translate(-50%, -50%); width: fit-content; z-index: 999;"></div>
     <main class="main" id="top">
         <div class="container" data-layout="container">
+        <?php 
+            include 'navbar.php';
+        ?>
             <div class="content">
-                <?php 
-                    include 'navbar.php';
-                ?>
-            </div>
-        </div>
-    </main>
